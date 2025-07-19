@@ -427,7 +427,7 @@ const Navbar = () => {
 
             {/* MOBILE VIEW */}
             <div className="md:hidden space-y-3">
-                {/* Top Row: Home + City Selector + Cart + Account */}
+                {/* Top Row: Home + Cart + Account */}
                 <div className="flex justify-between items-center">
                     {/* Home Button */}
                     <button
@@ -439,22 +439,6 @@ const Navbar = () => {
                     >
                         <FaHome className="text-lg mr-1" /> Home
                     </button>
-
-                    {/* City Selector */}
-                    <div className="relative city-selector">
-                        <button
-                            className="flex items-center gap-1 px-3 py-2 text-sm text-gray-600 rounded hover:bg-gray-100 transition-colors"
-                            onClick={() => setShowCityPopup(!showCityPopup)}
-                            onTouchStart={() => setShowCityPopup(!showCityPopup)} // Mobile touch
-                        >
-                            {selectedCity}
-                            <FaChevronDown
-                                className={`text-xs text-gray-500 transition-transform ${showCityPopup ? 'rotate-180' : ''}`}
-                            />
-                        </button>
-
-                        {showCityPopup && renderCityPopup()}
-                    </div>
 
                     <div className="flex items-center gap-3">
                         {/* Cart */}
@@ -531,33 +515,51 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                {/* Services Dropdown (like Desktop) */}
-                <div className="relative services-dropdown">
-                    <button
-                        className="w-full flex items-center justify-between px-4 py-2 text-sm text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition"
-                        onClick={() => setShowServices(!showServices)}
-                    >
-                        Browse Services
-                        <FaChevronDown className={`transition-transform ${showServices ? 'rotate-180' : ''}`} />
-                    </button>
 
-                    {showServices && (
-                        <div className="absolute left-0 w-full mt-2 bg-white rounded-lg shadow-lg z-40">
-                            {UNIQUE_CATEGORIES.map((category, index) => (
-                                <div
-                                    key={`mobile-service-${index}`}
-                                    className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
-                                    onClick={() => {
-                                        navigate(`/services`);
-                                        setShowServices(false);
-                                        window.scrollTo({ top: 0, behavior: 'instant' });
-                                    }}
-                                >
-                                    {category}
-                                </div>
-                            ))}
-                        </div>
-                    )}
+                {/* Services Dropdown & City Selector (stacked) */}
+                <div className="space-y-2">
+                    {/* Services Dropdown */}
+                    <div className="relative services-dropdown">
+                        <button
+                            className="w-full flex items-center justify-between px-4 py-2 text-sm text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition"
+                            onClick={() => setShowServices(!showServices)}
+                        >
+                            Browse Services
+                            <FaChevronDown className={`transition-transform ${showServices ? 'rotate-180' : ''}`} />
+                        </button>
+
+                        {showServices && (
+                            <div className="absolute left-0 w-full mt-2 bg-white rounded-lg shadow-lg z-40">
+                                {UNIQUE_CATEGORIES.map((category, index) => (
+                                    <div
+                                        key={`mobile-service-${index}`}
+                                        className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
+                                        onClick={() => {
+                                            navigate(`/services`);
+                                            setShowServices(false);
+                                            window.scrollTo({ top: 0, behavior: 'instant' });
+                                        }}
+                                    >
+                                        {category}
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+                    </div>
+
+                    {/* City Selector Dropdown */}
+                    <div className="relative city-selector">
+                        <button
+                            className="w-full flex items-center justify-between px-4 py-2 text-sm text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition"
+                            onClick={() => setShowCityPopup(!showCityPopup)}
+                            onTouchStart={() => setShowCityPopup(!showCityPopup)} // Mobile touch
+                        >
+                            {selectedCity}
+                            <FaChevronDown className={`transition-transform ${showCityPopup ? 'rotate-180' : ''}`} />
+                        </button>
+
+                        {showCityPopup && renderCityPopup()}
+                    </div>
                 </div>
             </div>
 
