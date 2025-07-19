@@ -11,7 +11,8 @@ import {
     FaCrosshairs,
     FaHistory,
     FaSpinner,
-    FaTimes
+    FaTimes,
+    FaHome
 } from 'react-icons/fa';
 
 const POPULAR_CITIES = ['Bangalore', 'Mumbai', 'Hyderabad', 'Chennai', 'Pune'];
@@ -423,10 +424,22 @@ const Navbar = () => {
                 </div>
             </div>
 
+
             {/* MOBILE VIEW */}
             <div className="md:hidden space-y-3">
-                {/* Top Row: City Selector + Cart + Account */}
+                {/* Top Row: Home + City Selector + Cart + Account */}
                 <div className="flex justify-between items-center">
+                    {/* Home Button */}
+                    <button
+                        className="flex items-center gap-1 px-3 py-2 text-sm text-gray-800 font-bold rounded hover:bg-gray-100 transition-colors"
+                        onClick={() => {
+                            navigate('/');
+                            window.scrollTo({ top: 0, behavior: 'instant' });
+                        }}
+                    >
+                        <FaHome className="text-lg mr-1" /> Home
+                    </button>
+
                     {/* City Selector */}
                     <div className="relative city-selector">
                         <button
@@ -450,8 +463,7 @@ const Navbar = () => {
                             onClick={() => {
                                 navigate('/cart');
                                 window.scrollTo({ top: 0, behavior: 'instant' });
-                            }
-                            }
+                            }}
                         >
                             <FaShoppingCart className="text-gray-800 text-lg" />
                             {cartCount > 0 && (
@@ -516,8 +528,6 @@ const Navbar = () => {
                                 </div>
                             )}
                         </div>
-
-
                     </div>
                 </div>
 
