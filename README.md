@@ -79,7 +79,7 @@ urban/
 
 ---
 
-### 📦 Installation
+### 📦 Instalalalation
 
 1. **Clone the Repository**
 ```bash
