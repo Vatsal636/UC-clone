@@ -92,3 +92,9 @@ cd urban
 cd client
 npm install
 ```
+
+3. **Install Backend Dependencies**
+```bash
+cd server
+npm install
+```
