@@ -131,5 +131,5 @@ Feel free to open issues for bugs, feature requests, or general discussion.
 
 ---
 
-> 🚀 Built and designed by [Vatsal Gokani]  
+> 🚀 Built and designed by [Vatsal Gokani](https://www.linkedin.com/in/vatsal-gokani-7759a0247)  
 > Experience it live 👉 [Demo](https://urban-service-app.vercel.app/)
