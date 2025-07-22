@@ -1,6 +1,6 @@
-# 🌆 Urban Company
+# 🌆 Urban Company - Clone
 
-**Urban Company** is a modern, feature-rich frontend web application for urban service booking, inspired by platforms like Urban Company. Built with React and Tailwind CSS, it provides a seamless, responsive user experience across devices. The project also includes a **basic backend setup** using Node.js and Express as a foundation for future expansion.
+**UC-Clone** is a modern, feature-rich frontend web application for urban service booking, inspired by platforms like Urban Company. Built with React and Tailwind CSS, it provides a seamless, responsive user experience across devices. The project also includes a **basic backend setup** using Node.js and Express as a foundation for future expansion.
 
 ---
 
