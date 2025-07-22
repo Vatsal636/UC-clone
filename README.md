@@ -101,7 +101,7 @@ npm install
 
 ---
 
-### ▶️ Running the Application
+### ▶️ Runthe Application
 
 #### Start the Frontend
 ```bash
