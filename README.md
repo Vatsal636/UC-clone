@@ -98,3 +98,12 @@ npm install
 cd server
 npm install
 ```
+
+---
+
+### ▶️ Running the Application
+
+#### Start the Frontend
+```bash
+cd client
+npm start
