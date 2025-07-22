@@ -113,6 +113,8 @@ cd server
 node server
 ```
 
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome and appreciated! 💡
