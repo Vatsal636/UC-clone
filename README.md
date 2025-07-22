@@ -11,7 +11,7 @@
 - [📁 Project Structure](#-project-structure)
 - [🚀 Getting Started](#-getting-started)
   - [🔧 Prerequisites](#-prerequisites)
-  - [📦 Installation](#-Installation)
+  - [📦 Installation](#-installation)
   - [▶️ Run the Application](#-run-the-application)
 - [🤝 Contributing](#-contributing)
 
