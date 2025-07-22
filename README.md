@@ -26,7 +26,6 @@
 - 🔐 Frontend UI for login/signup authentication
 - 🎨 Integrated Lottie animations
 - ⚛️ State management using Context API
-- 🔥 Firebase support for authentication (optional setup)
 - ⚙️ Backend boilerplate ready for future integration (Node.js + Express)
 
 ---
