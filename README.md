@@ -12,7 +12,7 @@
 - [🚀 Getting Started](#-getting-started)
   - [🔧 Prerequisites](#-prerequisites)
   - [📦 Installation](#-Installation)
-  - [▶️ Running the Application](#-running-the-application)
+  - [▶️ Running the Application](#-run-the-application)
 - [📜 Available Scripts](#-available-scripts)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
@@ -101,7 +101,7 @@ npm install
 
 ---
 
-### ▶️ Runthe Application
+### ▶️ Run the Application
 
 #### Start the Frontend
 ```bash
