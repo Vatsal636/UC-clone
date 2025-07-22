@@ -129,5 +129,5 @@ Feel free to open issues for bugs, feature requests, or general discussion.
 
 ---
 
-> Made with 💻 by [Vatsal Gokanni]  
-> Check out the live [Demo](https://urban-service-app.vercel.app/)
+> Made with 💻 by [Vatsal Gokani]  
+> Check out the live 👉 [Demo](https://urban-service-app.vercel.app/)
