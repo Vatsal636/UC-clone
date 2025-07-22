@@ -39,7 +39,6 @@
 - React Router
 - Context API
 - Lottie Web Animations
-- Firebase (Authentication & Storage)
 
 ### **Backend** (Basic Setup)
 - Node.js
