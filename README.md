@@ -88,7 +88,7 @@ cd urban
 ```
 
 2. **Install Frontend Dependencies**
-
+```bash
 cd client
 npm install
 ```
