@@ -13,9 +13,7 @@
   - [🔧 Prerequisites](#-prerequisites)
   - [📦 Installation](#-Installation)
   - [▶️ Run the Application](#-run-the-application)
-- [📜 Available Scripts](#-available-scripts)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 
 ---
 
