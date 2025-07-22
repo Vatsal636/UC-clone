@@ -107,3 +107,10 @@ npm install
 ```bash
 cd client
 npm start
+```
+
+#### Start the Backend
+```bash
+cd server
+node server
+```
