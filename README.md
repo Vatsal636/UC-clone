@@ -11,7 +11,7 @@
 - [📁 Project Structure](#-project-structure)
 - [🚀 Getting Started](#-getting-started)
   - [🔧 Prerequisites](#-prerequisites)
-  - [📦 Installation](#-Instalalalation)
+  - [📦 Installation](#-Installation)
   - [▶️ Running the Application](#-running-the-application)
 - [📜 Available Scripts](#-available-scripts)
 - [🤝 Contributing](#-contributing)
@@ -79,7 +79,7 @@ urban/
 
 ---
 
-### 📦 Instalalalation
+### 📦 Installation
 
 1. **Clone the Repository**
 ```bash
