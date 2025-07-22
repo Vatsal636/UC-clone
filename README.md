@@ -112,3 +112,16 @@ npm start
 cd server
 node server
 ```
+
+## 🤝 Contributing
+
+Contributions are welcome and appreciated! 💡
+
+If you'd like to contribute:
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -m 'Add my feature'`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a pull request
+
+Feel free to open issues for bugs, feature requests, or general discussion.
