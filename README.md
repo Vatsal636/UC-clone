@@ -60,7 +60,7 @@ urban/
 - │ ├── data/ # Static service data & dummy assets
 - │ └── pages/ # Route-based views (Home, Services, Cart, etc.)
 - │
-- ├── server/ Backend (Basic Setup)
+- ├── server/ # Backend (Basic Setup)
 - │ ├── controllers/
 - │ ├── middleware/
 - │ ├── models/
