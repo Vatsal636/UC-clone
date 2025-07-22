@@ -50,22 +50,22 @@
 ## 📁 Project Structure
 
 urban/
-│
-├── client/  Frontend (Fully Implemented)
-│ ├── public/
-│ └── src/
-│ ├── api/ Axios/API methods (if used)
-│ ├── components/ Reusable components (Navbar, Footer, Cards, etc.)
-│ ├── context/ Global state management (Context API)
-│ ├── data/ Static service data & dummy assets
-│ └── pages/ Route-based views (Home, Services, Cart, etc.)
-│
-├── server/ Backend (Basic Setup)
-│ ├── controllers/
-│ ├── middleware/
-│ ├── models/
-│ ├── routes/
-│ └── config/
+- │
+- ├── client/  Frontend (Fully Implemented)
+- │ ├── public/
+- │ └── src/
+- │ ├── api/ Axios/API methods (if used)
+- │ ├── components/ Reusable components (Navbar, Footer, Cards, etc.)
+- │ ├── context/ Global state management (Context API)
+- │ ├── data/ Static service data & dummy assets
+- │ └── pages/ Route-based views (Home, Services, Cart, etc.)
+- │
+- ├── server/ Backend (Basic Setup)
+- │ ├── controllers/
+- │ ├── middleware/
+- │ ├── models/
+- │ ├── routes/
+- │ └── config/
 
 
 ---
